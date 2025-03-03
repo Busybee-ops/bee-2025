@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/a45038c3-a2c2-4ea3-96a0-b8e07069dc97/resourceGroups/beeResourceGroup/providers/Microsoft.Web/sites/bee-2025",
+    "appService.deploySubpath": "."
+}

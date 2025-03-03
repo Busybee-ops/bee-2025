@@ -1,0 +1,264 @@
+/* Reset all margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* General Container */
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+/* Remove default Bootstrap margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff; /* Primary blue */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; /* Tight padding */
+    border-bottom: 1px solid #0056b3; /* Subtle divider */
+    font-size: 1rem; /* Smaller font size */
+    height: 40px; /* Set fixed height */
+    line-height: 40px; /* Vertically center text */
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+header h1 {
+    font-size: 1.4rem; /* Smaller title font */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0; /* Remove extra margin */
+}
+
+header p {
+    font-size: 0.8rem; /* Smaller text size */
+    font-weight: 300;
+    margin: 0; /* Remove default margin */
+}
+
+
+
+/* About Me Section */
+section.bg-primary {
+    background-color: #0056b3; /* Darker blue */
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+}
+
+section.bg-primary h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section.bg-primary p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* Projects Section */
+.projects {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.project-card {
+    margin: 20px;
+}
+
+.project-card .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-card img {
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card .card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-card h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project-card .btn {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Card hover effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f0f4f8;
+    padding: 60px 0;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+}
+
+.contact .form-group label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.contact .btn-warning {
+    background-color: #ff9f00;
+    border-color: #ff9f00;
+    font-size: 1.1rem;
+    padding: 12px 25px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact .btn-warning:hover {
+    background-color: #e68900;
+    border-color: #e68900;
+}
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    color: #ddd;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center !important;
+}
+
+.py-5 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.mb-4 {
+    margin-bottom: 30px !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-warning {
+    color: #ff9f00 !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Button Hover Effects */
+.btn {
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Add smooth transitions to links */
+a {
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+}
+#main-content {
+    margin-top: 20px; /* Adds space between content and top */
+    padding: 20px; /* Padding around content */
+    background-color: #f8f9fa; /* Light background for the content */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional subtle shadow */
+}
+
+/* You can add some uniform styles for forms and result sections */
+form,
+#main-content .result {
+    margin-bottom: 20px; /* Adds space between form and other content */
+}
+
+/* Consistent font styling */
+#main-content {
+    font-size: 16px; /* Uniform font size */
+    line-height: 1.5; /* Consistent line height */
+    color: #333; /* Dark text color for readability */
+}
