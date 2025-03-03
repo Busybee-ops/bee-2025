@@ -5,6 +5,8 @@ from project2.mainp2 import project2  # Importing project2 blueprint
 from contact.main_contact import contact 
 import os
 
+
+
 app = Flask(__name__)
 CORS(app, resources={r"/project1/*": {"origins": "*"}})
 CORS(app, resources={r"/project2/*": {"origins": "*"}})
